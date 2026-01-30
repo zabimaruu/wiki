@@ -2,14 +2,16 @@
 
 ## Debian
 
-1. Create a `python3` virtual enviroment
-	- mkdir `folder-name`
-	- `python3 -m venv 'folder-name'`
-	- cd into the newly created 'folder-name'
 
-2. Clone the git repo into the newly created 'folder-name'
+1. Clone your git repo locally
 	- `git clone https://github.com/reponame`
 	***Note: make sure that the `.gitignore` file micmics the one in the official repo. To avoid issues just copy the `.gitignore` file into the newly cloned repo***
+
+2. Create a `python3` virtual enviroment
+	- `python3 -m venv 'repo-name-folder'`
+	- cd into the newly created 'repo-name-folder'
+    - now, all changes you do to the `mkdocs.yml` will be tracked
+    - notes addition should always be added into the `docs` folder
 
 3. If you wish to test changes locally, install `mkdocs-material`
 	- activate the `python3` venv, `source ./bin/activate'
