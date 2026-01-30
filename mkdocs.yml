@@ -1,0 +1,27 @@
+site_name: Nottas
+theme:
+  features:
+    - search.suggest
+  name: material
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+plugins:
+  - tags:
+  - search:
+
+<!-- material/tags { toc: true } -->
