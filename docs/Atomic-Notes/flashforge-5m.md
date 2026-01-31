@@ -1,3 +1,9 @@
+---
+tags:
+  - FlashForge
+  - 3D-Printin
+---
+
 # FlashForge 5M Guide & Maintanance
 
 ## Must Do Regurarely
