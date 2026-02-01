@@ -98,7 +98,7 @@ If an extra drive needs to be added to your machine **post installation** follow
 2. add the following entry at the bottom of the `fstab`
 	1. `/dev/mapper/extra /mnt/extra ext4 defaults 0 0`
 	2. *Note: make sure to change all values to match your drive, "extra" mount point and "partition type" needs to be change*
-![Second-Drive-Fstab-Entry.png](../Media/Second-Drive-Fstab-Entry.png)
+![Second-Drive-Fstab-Entry](../Media/Second-Drive-Fstab-Entry.png)
 3. You can now, reboot and if the drive is detected, you should be asked to enter the **drive encryption password**
 
 ### Encryption Key and crypttab
@@ -113,7 +113,7 @@ If an extra drive needs to be added to your machine **post installation** follow
 		2. **/dev/drive** = drive label location
 		3. **none** = tell linux to ask for the drive encryption password on boot
 3. After both options have been added, see *image below* proceed to creating a **encryption key**
-![crypttab-example-2nd-drive-encypt.png](../Media/crypttab-example-2nd-drive-encypt.png)
+![crypttab-example-2nd-drive-encypt](../Media/crypttab-example-2nd-drive-encypt.png)
 4. Generate LUKS key using **OpenSSL**
 	1. `openssl rand -out /path/to/your/keyfile 4096`
 5. Change permission to `read` only by `root`
