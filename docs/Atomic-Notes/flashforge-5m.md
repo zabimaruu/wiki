@@ -1,7 +1,7 @@
 ---
 tags:
   - FlashForge
-  - 3D-Printin
+  - 3D-Printing
 ---
 
 # FlashForge 5M Guide & Maintanance
