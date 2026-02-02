@@ -1,7 +1,7 @@
 ---
 tags:
-	- Asahi
-	- Apple Linux
+    - Apple Linux
+    - Asahi
 ---
 
 # Asahi Linux

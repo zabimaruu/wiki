@@ -7,6 +7,7 @@ tags:
 # Arch Linux Possible Issues & Solutions
 
 ## Network Related
+
 ### Wireguard Tools
 Follow the **tldr** solution below
 **Issue:** 
