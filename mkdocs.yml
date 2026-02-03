@@ -1,6 +1,7 @@
 site_name: Nottas
 theme:
   features:
+    - navigation.tabs
     - search.suggest
   name: material
   palette:
