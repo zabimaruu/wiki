@@ -2,6 +2,7 @@ site_name: Nottas
 theme:
   features:
     - navigation.tabs
+    - navigation.path
     - search.suggest
   name: material
   palette:
