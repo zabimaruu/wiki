@@ -5,6 +5,7 @@ tags:
     - Linux
 ---
 
+# Cosmic Desktop - Getting Started
 
 ## Installation
 
