@@ -1,8 +1,10 @@
-2026-02-04 19:45
+---
+tags:
+    - Arch
+    - Cosmic
+    - Linux
+---
 
-Tags: [[Arch]] [[Cosmic Desktop]]
-
-# Table Of Content
 
 ## Installation
 
