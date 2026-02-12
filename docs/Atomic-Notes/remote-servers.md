@@ -5,6 +5,8 @@ tags:
     - Remote
 ---
 
+# Remote Serves Must Do
+
 ## SSH Essentials
 If commands are not recognized on the terminal you using, export the following and try reconnecting
 	`export TERM=xterm-256color`

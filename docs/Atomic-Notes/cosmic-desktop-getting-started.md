@@ -8,6 +8,12 @@ tags:
 # Cosmic Desktop - Getting Started
 
 ## Installation
+### Arch
+```bash
+sudo pacman -S cosmic
+```
+After cosmic has been installed, exit your current session and pick `cosmic`
+For more up-to-date information visit the [arch-wiki cosmic page](https://wiki.archlinux.org/title/COSMIC)
 
 ## Add-on & Configuration
 Missing `caffeine`? install the following to bring this feature back
